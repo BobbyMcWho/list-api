@@ -23,7 +23,8 @@ You should get a response "We are live on 8000." This is the port set in your se
 #REST
 You can make HTTP requests to localhost:8000/notes. 
 
-GET: `http://localhost:8000/notes/[noteid]`
-POST: `http://localhost:8000/notes` your content type should be application/json and your body should include an object with {"text":[your text],"title":[your title]}.
-PUT: `http://localhost:8000/notes/[noteid]` same as post, but your body may include text _and/or_ title key value pairs.
-DELETE: `http://localhost:8000/notes/[noteid]` will delete the note with the id specified.
+GET: `http://localhost:8000/notes` will return all notes in the notes list.  
+POST: `http://localhost:8000/notes` your content type should be application/json and your body should include an object with {"text":[your text],"title":[your title]}.  
+GET: `http://localhost:8000/notes/[noteid]` will return the note with the given id.  
+PUT: `http://localhost:8000/notes/[noteid]` same as post, but your body may include text _and/or_ title key value pairs.  
+DELETE: `http://localhost:8000/notes/[noteid]` will delete the note with the id specified.  
