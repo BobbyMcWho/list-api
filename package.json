@@ -1,0 +1,16 @@
+{
+  "name": "list-api",
+  "description": "List API",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^3.21.2",
+    "mongodb": "^2.2.24",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "nodemon": "^1.11.0"
+  }
+}
