@@ -13,7 +13,7 @@ Create a directory named 'data' within the root of the repository, then a subdir
 
 Open a command prompt at the root of your directory, and type the following command:
 `$ mongod --dbpath .\data\db`
-If you installed monddodb correctly, you will receive a lot of logs to the console, _the process will stay running_.
+If you installed mongodb correctly, you will receive a lot of logs to the console, _the process will stay running_.
 
 Open a new command prompt (leave the old running) in the new one, start your server using: 
 `$ node server.js`
