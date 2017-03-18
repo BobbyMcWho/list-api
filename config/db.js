@@ -1,3 +1,3 @@
 module.exports = {
-  url : process.env.MONGODB_URI
+  url : 'http://localhost:27017'
 };
